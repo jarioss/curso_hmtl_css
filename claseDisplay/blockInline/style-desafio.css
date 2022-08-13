@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: olive;
+    width: 100vw;
+    height: 50px;
+}
+.logo {
+    display: inline-block;
+}
+.nav {
+    position: absolute;
+    right: 10px ; 
+    top: 0;
+}
+.nav li {
+    display: inline-block;
+    list-style: none;
+}
+.nav li::before  {
+    content: " | ";
+}
+.main {
+    display: inline-block;
+    background-color: cadetblue;
+    position: absolute;
+    left: 200px;
+    width: 100vw;
+    min-height: 600px ;
+}
+
+.box-conteiner {
+    display: inline-block;
+    width: 200px;
+    height: 600px;
+    position: absolute;
+    background-color: orange;
+   
+}
+.litte-box{
+    display: inline-block;
+    width: 180px;
+    height:130px ;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: red; 
+}
+.litte-box p {
+    position: relative;
+    margin: 0;
+    max-width: 50px;
+    left: 85px;
+    top: 55px;
+}
+.footer {
+    display: inline-block;
+    position: absolute;
+    top: 650px;
+    width: 100vw;
+    height: 40px;
+    background-color: gray;
+}
+.redes {
+    display: inline-block;
+    
+}
+.pagos {
+    display: inline-block;
+    position: absolute;
+    right: 50px;
+    
+
+}

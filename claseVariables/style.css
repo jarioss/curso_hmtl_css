@@ -1,0 +1,60 @@
+:root {
+    --tipo_txt_pp: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    --color_titulo_1:green; 
+    --tamano_objetos_1: 10vh;
+    --tamano_txt_parrafo: 1.6rem;
+    --tamano_txt_titulo: 2.5rem;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header  {
+    font-size: 1.8rem;
+    width: 100vw;
+    height: var(--tamano_objetos_1);
+    background-color: var(--color_titulo_1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content:center;
+}
+.nav * {
+    display: flex;
+    padding: 0.5rem;
+}
+.nav li::before{
+    content: " | ";
+}
+.main * {
+    display: flex;
+    height: 50vh;
+    align-content: center;
+
+}
+.main h1 {
+    font-size: var(--tamano_txt_titulo);
+    color: var(--color_titulo_1);
+    border: 0.3rem orange dotted;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+.main p {
+font-size: var(--tamano_txt_parrafo);
+    
+}
+aside {
+    font-size: var(--tamano_txt_parrafo);
+}
+.footer {
+    font-size: var(--tamano_txt_parrafo);
+    background-color: var(--color_titulo_1);
+}
